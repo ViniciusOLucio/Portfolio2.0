@@ -1,0 +1,35 @@
+.btn-principal{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: #461978;
+  font-size: $p;
+  font-family: $saira;
+  font-weight: $bold;
+  color: $branco;
+
+  img{
+    width: 24px;
+    height: 24px;
+  }
+}
+
+.btn-secundario{
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  border-radius: 10px;
+  gap: 5px;
+  background-color: $roxo;
+  font-size: $p;
+  font-family: $saira;
+  font-weight: $bold;
+  color: $branco;
+  img{
+    width: 24px;
+    height: 24px;
+  }
+}
+

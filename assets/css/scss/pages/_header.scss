@@ -1,0 +1,35 @@
+header {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  nav {
+    ul {
+      gap: 30px;
+      display: flex;
+      li{
+      a{
+        font-family:$saira;
+        font-size:$p;
+        font-weight:$regular;
+        color:$branco;
+
+      }
+      .active{
+        font-weight: $bold;
+        &::before{
+          content:"</>";
+          color: #059669;
+          font-family: "Freckle Face";
+        }
+      }
+
+    }
+  }
+  }
+
+  img {
+    width: 300px;
+    height: 28px;
+  }
+}

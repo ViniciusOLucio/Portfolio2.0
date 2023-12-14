@@ -11,5 +11,3 @@
 </main>
 
 <?php get_footer(); ?>
-dasdasdad
-asdasdasdas
