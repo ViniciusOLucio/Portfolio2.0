@@ -21,11 +21,11 @@
         Bem-vindo ao meu espaço digital! Sou Vinícius, um desenvolvedor front-end apaixonado por transformar ideias em experiências memoráveis.
       </p>
     </div>
-    <div class="hero-btn">
+    <div class="btn">
       <!-- btn 1 -->
       <div class="hero-btn-1">
         <a href="" class="btn-secundario">
-        <img src="<?php echo get_template_directory_uri() ?>/assets/img/ReadIcon.svg" alt="">
+          <img src="<?php echo get_template_directory_uri() ?>/assets/img/ReadIcon.svg" alt="">
           Meu resumo
         </a>
       </div>
@@ -33,7 +33,7 @@
       <div class="hero-btn-2">
         <a href="" class="btn-principal">
           Entre em contato
-        <img src="<?php echo get_template_directory_uri() ?>/assets/img/ArrowIcon.svg" alt="">
+          <img src="<?php echo get_template_directory_uri() ?>/assets/img/ArrowIcon.svg" alt="">
         </a>
       </div>
       <!--  -->
@@ -52,6 +52,69 @@
     </div>
   </div>
 
+</section>
+
+<!-- sobre -->
+<section id="sobre">
+  <div class="introducao_conteudo container">
+    <div class="introducao_conteudo-txt">
+      <span>
+        #
+      </span>
+      <h2>
+        sobre
+      </h2>
+    </div>
+    <div class="introducao_conteudo_wrapper"></div>
+
+  </div>
+
+  <div class="col-100">
+    <div class="sobre grid-2 container">
+      <div class="sobre-img">
+        <img src="<?php echo get_template_directory_uri() ?>/assets/img/Ilustração-Vinicius-feito-por-Cauã-Parreira.svg" alt="">
+      </div>
+      <!-- fim div img -->
+      <div class="sobre-text">
+        <div class="icons">
+          <ul>
+            <!-- icon-1 -->
+            <li class="icon">
+                <img src="<?php echo get_template_directory_uri() ?>/assets/img/ReadIcon.svg" alt="">
+            </li>
+            <!-- icon-2 -->
+          </ul>
+        </div>
+        <!-- fim icons -->
+        <div class="sobre-txt">
+          <h3>
+
+          </h3>
+          <!-- p-1 -->
+          <p>
+
+          </p>
+          <!-- p2 -->
+          <p>
+
+          </p>
+          <!-- p3 -->
+          <p>
+            <span>
+
+            </span>
+          </p>
+          <div class="btn">
+            <a href="" class="btn-secundario">
+              <img src="<?php echo get_template_directory_uri() ?>/assets/img/ReadIcon.svg" alt="">
+              Meu resumo
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- fim txt -->
+    </div>
+  </div>
 </section>
 
 

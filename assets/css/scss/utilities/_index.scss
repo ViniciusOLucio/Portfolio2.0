@@ -1,0 +1,33 @@
+.introducao_conteudo{
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  &-txt{
+    display: flex;
+    font-family: $fira;
+    font-weight: $medium;
+    font-size: $h2;
+
+    h2{
+
+      color: $branco;
+
+    }
+    span{
+      color: $roxoicone;
+    }
+  }
+    &_wrapper{
+      width: 100%;
+      height: 1px;
+      background-color: $roxoicone;
+    }
+    &.container{
+      width: 900px;
+    }
+  }
+
+  // icons
+  
