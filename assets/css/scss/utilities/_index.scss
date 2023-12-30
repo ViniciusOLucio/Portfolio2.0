@@ -42,5 +42,11 @@
       padding: 10px;
       font-size: 24px;
       color: $branco;
+      transition: .65s;
+      &:hover{
+        color: #059669;
+
+      }
     }
+
   }
