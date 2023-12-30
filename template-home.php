@@ -70,38 +70,56 @@
   </div>
 
   <div class="col-100">
-    <div class="sobre grid-2 container">
+    <div class="sobre container">
       <div class="sobre-img">
         <img src="<?php echo get_template_directory_uri() ?>/assets/img/Ilustração-Vinicius-feito-por-Cauã-Parreira.svg" alt="">
       </div>
       <!-- fim div img -->
       <div class="sobre-text">
-        <div class="icons">
-          <ul>
+        <div>
+          <ul class="icons">
             <!-- icon-1 -->
             <li class="icon">
-                <img src="<?php echo get_template_directory_uri() ?>/assets/img/ReadIcon.svg" alt="">
+              <i class="fa-brands fa-square-js"></i>
             </li>
             <!-- icon-2 -->
+            <li class="icon">
+              <i class="fa-brands fa-react"></i>
+            </li>
+            <!-- icon-3 -->
+            <li class="icon">
+              <i class="fa-brands fa-node-js"></i>
+            </li>
+            <!-- icon-4 -->
+            <li class="icon">
+              <i class="fa-brands fa-hotjar"></i>
+            </li>
+            <!-- icon-5 -->
+            <li class="icon">
+              <i class="fa-brands fa-python"></i>
+            </li>
           </ul>
         </div>
         <!-- fim icons -->
         <div class="sobre-txt">
           <h3>
-
+            Olá, eu sou o Vinícius!
           </h3>
           <!-- p-1 -->
           <p>
+            Sou um desenvolvedor front-end, minha especialidade está na criação de websites, com foco em atender advogados
+            no entanto, estou preparado para atender qualquer tipo de demanda.
+
 
           </p>
           <!-- p2 -->
           <p>
-
+            Tenho colaborado com clientes de diversas áreas, adaptando-me a diferentes contextos e garantindo a entrega de soluções personalizadas e de qualidade.
           </p>
           <!-- p3 -->
           <p>
             <span>
-
+              Estou aqui para ajudar a construir a presença online que você deseja.
             </span>
           </p>
           <div class="btn">

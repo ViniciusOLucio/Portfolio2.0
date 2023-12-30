@@ -30,4 +30,17 @@
   }
 
   // icons
-  
+  .icons{
+
+    display: flex;
+    gap: 24px;
+  }
+    .icon{
+    i{
+      border-radius: 5px;
+      background-color: $roxo;
+      padding: 10px;
+      font-size: 24px;
+      color: $branco;
+    }
+  }

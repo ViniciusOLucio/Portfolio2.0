@@ -80,5 +80,39 @@ gap: 60px;
 // sobre
 // sobre
 // sobre
+.sobre{
+  display: grid;
+  grid-template-columns: 600px 550px;
+  gap: 80px;
+}
 
+.sobre-text{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.sobre-txt{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  h3{
+    font-size: $h3;
+    font-family: $fira;
+    font-weight: $medium;
+    color: $branco;
+  }
+  p{
+    color: $branco2;
+    font-family: $fira;
+    font-weight: $regular;
+    font-size: $p;
+
+
+    span{
+      color: $branco;
+      font-weight: $medium;
+    }
+  }
+}
 
