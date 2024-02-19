@@ -1,10 +1,20 @@
-const path = require('path');
+import path from 'path';
+import dotenv from 'dotenv';
+import gulp from 'gulp';
+import gulpsass from 'gulp-sass';
+import * as sasslib from 'sass';
+import autoprefixer from 'gulp-autoprefixer';
+import browserSynclib from 'browser-sync';
 
-require('dotenv').config({ path: '.env.development' });
-const gulp = require('gulp');
-const sass = require('gulp-sass')(require('sass'));
-const autoprefixer = require('gulp-autoprefixer');
-const browserSync = require('browser-sync').create();
+
+const browserSync = browserSynclib.create();
+const sass = gulpsass(sasslib);
+
+dotenv.config({
+  path: '.env.development'
+});
+
+const __dirname = import.meta.dirname;
 
 function compilaSass() {
   return gulp

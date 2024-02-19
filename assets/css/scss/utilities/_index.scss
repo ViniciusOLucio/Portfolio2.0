@@ -10,6 +10,7 @@
     font-weight: $medium;
     font-size: $h2;
 
+
     h2{
 
       color: $branco;
@@ -47,6 +48,58 @@
         color: #059669;
 
       }
+    }
+
+  }
+  #introducao_text {
+    fill: $branco;
+    font-family: $fira;
+    // stroke: #862be7;
+    font-size: $h2;
+    font-weight: 700;
+    // stroke-width: 1;
+
+    // animation: textAnimate 5s infinite alternate;
+
+  }
+  @keyframes textAnimate {
+    0% {
+      stroke-dasharray: 0 50%;
+      stroke-dashoffset:  20%;
+      fill:hsl(0, 0%, 100%)
+
+    }
+
+    100% {
+      stroke-dasharray: 50% 0;
+      stroke-dashoffstet: -20%;
+      fill: hsla(0, 0%, 98%, 0)
+    }
+
+  }
+  .hash {
+    fill: $roxoicone;
+    font-family: $fira;
+    stroke: #059669;
+    font-size: $h2;
+    font-weight: 700;
+    stroke-width: 1;
+
+    animation: textAnimate2 5s infinite alternate;
+
+  }
+  @keyframes textAnimate2 {
+    0% {
+      stroke-dasharray: 0 30%;
+      stroke-dashoffset:  20%;
+      fill:hsl(263, 89%, 45%)
+
+    }
+
+    100% {
+      stroke-dasharray: 20% 0;
+      stroke-dashoffstet: 20%;
+      fill: hsla(0, 0%, 98%, 0)
     }
 
   }

@@ -22,6 +22,14 @@ window.addEventListener('load',function(){
   typeWriter(document.querySelectorAll("#trabalho-atual > a "))
 
   //
+
+
+
+
+
+
+
 });
+
 
 

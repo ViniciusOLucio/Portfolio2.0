@@ -12,7 +12,7 @@ $theme_uri = get_template_directory_uri();
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- font awersome -->
-  <script src="https://kit.fontawesome.com/48a96fe751.js" crossorigin="anonymous"></script> 
+  <script src="https://kit.fontawesome.com/48a96fe751.js" crossorigin="anonymous"></script>
   <!-- google fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -25,7 +25,10 @@ $theme_uri = get_template_directory_uri();
 <div class="col-100-header">
   <header class="container">
     <img src="<?php echo get_template_directory_uri() ?>/assets/img/Logo_Vinicius.svg" alt="">
-    <nav>
+    <nav class="" id="">
+
+
+
       <ul>
         <li>
           <a href="" class="active">
@@ -49,6 +52,8 @@ $theme_uri = get_template_directory_uri();
         </li>
 
       </ul>
+      <div class="hamburger-menu">
+					<div class="bar"></div>
     </nav>
   </header>
   </div>
